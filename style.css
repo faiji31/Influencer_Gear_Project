@@ -1,0 +1,22 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
