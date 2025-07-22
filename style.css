@@ -9,6 +9,9 @@
 .logo{
     font-weight: bold;
     font-size: 24px;
+    transition: 3s;
+    cursor: pointer;
+    padding-bottom: 10px;
 }
 ul li{
     list-style: none;
@@ -18,6 +21,8 @@ li a{
     font-size: 16px;
     font-weight:700;
     color: #3A3A3A;
+     transition: 1s;
+    cursor: pointer;
 }
 .nav{
     display: flex;
@@ -28,11 +33,58 @@ li a{
     gap: 25px;
    
 }
-.fonta 
+ 
 .navbar ul{
     display: flex;
     gap:25px;
+    transition: 3s;
+    cursor: pointer;
 }
 .nav-section{
     margin: 40px 60px;
+}
+.logo:hover{
+    color: crimson;
+}
+.navbar:hover{
+    color: crimson;
+}
+li a:hover{
+     color: crimson;
+}
+.banner-img{
+    background-image: url(images/Circle\ design.svg);
+}
+.banner{
+    display: flex;
+    padding: 20px 20px;
+}
+.h1{
+    font-weight:bold;
+    font-size: 52px;
+}
+.p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn{
+    background-color: #E02C6D;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 41px;
+    color: white;
+    font-weight: 700;
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(61, 139, 84);
+    color: black;
+}
+.banner-description{
+    text-align:start;
+}
+.banner-img{
+    margin-left: 80px;
+    justify-content: center;
 }
