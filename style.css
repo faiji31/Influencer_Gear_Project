@@ -58,6 +58,7 @@ li a:hover{
 .banner{
     display: flex;
     padding: 20px 20px;
+    margin-top: 20px;
 }
 .h1{
     font-weight:bold;
@@ -87,4 +88,7 @@ li a:hover{
 .banner-img{
     margin-left: 80px;
     justify-content: center;
+}
+.logo-a{
+    gap: 15px;
 }
